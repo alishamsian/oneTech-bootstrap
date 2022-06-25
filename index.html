@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- app css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <!-- top header -->
+        <div class="navbar navbar-expand-lg p-0 bg-light small">
+            <div class="container">
+                <ul class="navbar-nav">
+                    <li class="nav-item d-flex align-items-center px-2">
+                        <i class='bx bx-phone'></i>
+                        <a class="nav-link" href="#">+38 068 005 3570</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center px-2">
+                        <i class='bx bx-envelope'></i>
+                        <a class="nav-link" href="#">fastsales@gmail.com</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item d-flex align-items-center px-2">
+                        <a class="nav-link" href="">ENGLISH</a>
+                        <i class='bx bxs-chevron-down'></i>
+                    </li>
+                    <li class="nav-item d-flex align-items-center px-2">
+                        <i class='bx bx-dollar'></i>
+                        <a class="nav-link" href="">USD</a>
+                        <i class='bx bxs-chevron-down'></i>
+                    </li>
+
+                    <li class="nav-item d-flex align-items-center px-2 border-end">
+                        <i class='bx bx-user'></i>
+                        <a class="nav-link" href="#">Register</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center px-2"><a class="nav-link" href="#">Sign in</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end top header -->
+        <!-- mid header -->
+        <div class="navbar navbar-expand-lg py-5">
+            <div class="container"> <a href="#" class="navbar-brand fs-1 fw-bold text-primary">OneTech</a>
+                <div class="input-group">
+                    <input class="form-control" placeholder="Subscribe" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn btn-primary d-flex" type="submit" id="button-search"><i
+                            class='bx bx-search-alt fs-4'></i></button>
+                </div>
+
+
+                <ul class="navbar-nav">
+                    <li class="navbar-item d-flex align-items-center me-4 ">
+                        <div class="fs-xl">
+                            <i class='bx bx-heart'></i>
+                        </div>
+                        <div class="ms-1">
+                            <h5 href="#" class="mb-0">Wishlist</h5>
+                            <span class="text-muted">112</span>
+                        </div>
+                    </li>
+                    <li class="navbar-item d-flex align-items-center me-4">
+                        <div class="fs-xl">
+                            <i class='bx bx-shopping-bag'></i>
+                        </div>
+                        <div class="ms-1">
+                            <h5 href="#" class="mb-0">Cart</h5>
+                            <span class="text-muted">$39</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- bottom header -->
+        <nav class="navbar navbar-expand-lg shadow p-0 bg-body rounded">
+            <div class="container">
+                <!-- mega menu -->
+                <div class="navbar-nav fw-semibold">
+                    <a class="nav-link d-flex align-items-center" href="#"><i class='bx bx-menu fs-3'></i>CATEGORIES</a>
+                    <!-- <div class="mega-content">
+                            <div class="row">
+                                <div class="">
+                                    <div class="box">
+                                        <ul>
+                                            <li><a href="#">Computers & Laptops</a></li>
+                                            <li><a href="#">Camera & Photos</a></li>
+                                            <li><a href="#">Hadware</a></li>
+                                            <li><a href="#">Smartphone & Tablets</a></li>
+                                            <li><a href="#">TV & Audio</a></li>
+                                            <li><a href="#">Gadgets</a></li>
+                                            <li><a href="#">Car Electronics</a></li>
+                                            <li><a href="#">Video Game & Consoles</a></li>
+                                            <li><a href="#">Accessories</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                </div>
+                <ul class="navbar-nav fw-semibold">
+                    <li class="nav-item p-1"><a href="#" class="nav-link d-flex align-items-center">Home</a></li>
+                    <li class="nav-item p-1">
+                        <a href="#" class="nav-link d-flex align-items-center">Super Deals <i
+                                class='bx bxs-chevron-down'></i></a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <a href="#" class="nav-link d-flex align-items-center">Featured Brands <i
+                                class='bx bxs-chevron-down'></i></a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <a href="#" class="nav-link d-flex align-items-center">Pages <i
+                                class='bx bxs-chevron-down'></i></a>
+                    </li>
+                    <li class="nav-item p-1"><a href="#" class="nav-link d-flex align-items-center">Blog</a></li>
+                    <li class="nav-item p-1"><a href="#" class="nav-link d-flex align-items-center">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- end mid header -->
+    </header>
+
+
+    <!-- hero section -->
+    <section class="bg-gradient">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="info col-6">
+                    <div class="info-content">
+                        <h3 class="text-uppercase">
+                            JBL TUNE 750TNC
+                        </h3>
+                        <h2 class="display-1 fw-bolder">
+                            Next-gen design
+                        </h2>
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolor commodi
+                            dignissimos culpa, eaque eos necessitatibus possimus veniam, cupiditate rerum deleniti?
+                            Libero, ducimus error? Beatae velit dolore sint explicabo! Fugit.
+                        </p>
+                        <div class="top-down">
+                            <button class="btn btn-outline-dark px-4 py-2 rounded-0 text-uppercase">
+                                <span class="fw-semibold">shop now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <img class="img-fluid" src="./assets/images/JBL_E55BT_KEY_RED_6063_FS_x1-1605x1605px.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end hero section -->
+
+    <!-- policy card -->
+    <section class="policy-cards p-5">
+        <div class="container">
+            <div class="row gap-4">
+                <div class="d-flex align-items-center justify-content-around col shadow p-3 bg-body rounded ">
+                    <div>
+                        <i class='bx bx-donate-heart text-primary fs-1'></i>
+                    </div>
+                    <div>
+                        <div class="fw-semibold">free delivery </div>
+                        <p class="small m-0 text-muted">Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-around col shadow p-3 bg-body rounded">
+                    <div class="icon">
+                        <i class='bx bx bx-repost text-primary fs-1'></i>
+                    </div>
+                    <div class="info">
+                        <div class="fw-semibold">free delivery </div>
+                        <p class="small m-0 text-muted">Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-around col shadow p-3 bg-body rounded">
+                    <div class="icon">
+                        <i class='bx bx-user text-primary fs-1'></i>
+                    </div>
+                    <div class="info">
+                        <div class="fw-semibold">free delivery </div>
+                        <p class="small m-0 text-muted">Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-around col shadow p-3 bg-body rounded">
+                    <div class="icon">
+                        <i class='bx bx-package text-primary fs-1'></i>
+                    </div>
+                    <div class="info">
+                        <div class="fw-semibold">free delivery </div>
+                        <p class="small m-0 text-muted">Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end policy card -->
+
+
+
+
+
+                <!-- recently viewed -->
+
+                <section class="section">
+                    <div class="container">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h2>recently viewed</h2>
+    
+                            <div class="position-relative">
+                                <button class="btn btn-outline-dark position-absolute end-0 rounded-circle p-2 d-flex align-items-center">
+                                    <i class='bx bxs-chevron-right fs-5'></i>
+                                </button>
+                                <button class="btn btn-outline-dark position-absolute rounded-circle p-2 d-flex align-items-center start-0">
+                                    <i class='bx bxs-chevron-left fs-5'></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class=" recently-viewed" id="recently-viewed">
+                            <div class="product-cards">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="product-card-img">
+                                            <img class="w-100" src="./assets/images/JBL_Quantum_400_Product Image_Hero 02.png" alt="">
+                                            <img class="w-100" src="./assets/images/JBL_Quantum_400_Product Image_Hero Mic Up.webp"
+                                                alt="">
+                                        </div>
+                                        <div class="product-card-info">
+                                            <div class="product-btn">
+                                                <button class="btn-flat btn-hover btn-shop-now">shop now</button>
+                                                <button class="btn-flat btn-hover btn-cart-add">
+                                                    <i class='bx bxs-cart-add'></i>
+                                                </button>
+                                                <button class="btn-flat btn-hover btn-cart-add">
+                                                    <i class='bx bxs-heart'></i>
+                                                </button>
+                                            </div>
+                                            <div class="product-card-price">
+                                                <span><del>$300</del></span>
+                                                <span class="curr-price">$200</span>
+                                            </div>
+                                            <div class="product-card-name">
+                                                JBL Quantum 400
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 ">
+                                        <div class="product-card-img">
+                                            <img class="w-100" src="./assets/images/JBL_JR 310BT_Product Image_Hero_Skyblue.png" alt="">
+                                            <img class="w-100" src="./assets/images/JBL_JR 310BT_Product Image_Detail_Skyblue.png" alt="">
+                                        </div>
+                                        <div class="product-card-info">
+                                            <div class="product-btn">
+                                                <button class="btn-flat btn-hover btn-shop-now">shop now</button>
+                                                <button class="btn-flat btn-hover btn-cart-add">
+                                                    <i class='bx bxs-cart-add'></i>
+                                                </button>
+                                                <button class="btn-flat btn-hover btn-cart-add">
+                                                    <i class='bx bxs-heart'></i>
+                                                </button>
+                                            </div>
+                                            <div class="product-card-price">
+                                                <span><del>$300</del></span>
+                                                <span class="curr-price">$200</span>
+                                            </div>
+                                            <div class="product-card-name">
+                                                JBL Quantum 400
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card-img">
+                                            <img class="w-100" src="./assets/images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png"
+                                                alt="">
+                                            <img class="w-100" src="./assets/images/JBL_E55BT_KEY_RED_6063_FS_x1-1605x1605px.webp" alt="">
+                                        </div>
+                                        <div class="product-card-info">
+                                            <div class="product-btn">
+                                                <button class="btn-flat btn-hover btn-shop-now">shop now</button>
+                                                <button class="btn-flat btn-hover btn-cart-add">
+                                                    <i class='bx bxs-cart-add'></i>
+                                                </button>
+                                                <button class="btn-flat btn-hover btn-cart-add">
+                                                    <i class='bx bxs-heart'></i>
+                                                </button>
+                                            </div>
+                                            <div class="product-card-price">
+                                                <span><del>$300</del></span>
+                                                <span class="curr-price">$200</span>
+                                            </div>
+                                            <div class="product-card-name">
+                                                JBL Quantum 400
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card-img">
+                                            <img class="w-100" src="./assets/images/JBL_E55BT_KEY_BLACK_6175_FS_x1-1605x1605px.png"
+                                                alt="">
+                                            <img class="w-100" src="./assets/images/JBL_LIVE650BTNC_Product Image_Folded_Black.webp"
+                                                alt="">
+                                        </div>
+                                        <div class="product-card-info">
+                                            <div class="product-btn">
+                                                <button class="btn-flat btn-hover btn-shop-now">shop now</button>
+                                                <button class="btn-flat btn-hover btn-cart-add">
+                                                    <i class='bx bxs-cart-add'></i>
+                                                </button>
+                                                <button class="btn-flat btn-hover btn-cart-add">
+                                                    <i class='bx bxs-heart'></i>
+                                                </button>
+                                            </div>
+                                            <div class="product-card-price">
+                                                <span><del>$300</del></span>
+                                                <span class="curr-price">$200</span>
+                                            </div>
+                                            <div class="product-card-name">
+                                                JBL Quantum 400
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+    
+                <!-- end recently viewed -->
+    
+
+    
+            <!-- brand slider -->
+            <section class="brand-slider p-5">
+                <div class="container">
+                    <div class="row shadow rounded-4  filter py-5 px-3">
+                        <div class="d-flex align-items-center justify-content-around position-relative">
+                            <div class="slider-item">
+                                <img class="w-100" src="./assets//images/pngwing.com (1).png" alt="">
+                            </div>
+                            <div class="slider-item">
+                                <img class="w-100" src="./assets//images/pngwing.com (6).png" alt="">
+                            </div>
+                            <div class="slider-item">
+                                <img class="w-100" src="./assets//images/pngwing.com (3).png" alt="">
+                            </div>
+                            <div class="slider-item">
+                                <img class="w-100" src="./assets//images/pngwing.com (4).png" alt="">
+                            </div>
+                            <div class="slider-item">
+                                <img class="w-100" src="./assets//images/pngwing.com (5).png" alt="">
+                            </div>
+                            <div class="slider-item">
+                                <img class="w-100" src="./assets//images/pngwing.com.png" alt="">
+                            </div>
+
+                            <button class="btn btn-outline-dark position-absolute end-0 rounded-circle p-2 d-flex align-items-center">
+                                <i class='bx bxs-chevron-right fs-5'></i>
+                            </button>
+                            <button class="btn btn-outline-dark position-absolute rounded-circle p-2 d-flex align-items-center start-0">
+                                <i class='bx bxs-chevron-left fs-5'></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- end brand slider -->
+
+
+    <!-- subscibe -->
+    <section class="subscribe  bg-light shadow my-5">
+        <div class="container">
+            <div class="row py-5 align-items-center">
+                <div class="col d-flex align-items-center gap-4">
+                    <i class='bx bxl-telegram fs-xxl text-primary'></i>
+                    <div>
+                        <h2>
+                            Lorem ipsum dolor sit <br />
+
+                        </h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Subscribe" aria-label="Subscribe"
+                                aria-describedby="button-subscribe">
+                            <button class="btn btn-outline-primary" type="button"
+                                id="button-subscribe">Subscribe</button>
+                        </div>
+                        <button type="button" class="btn btn-link">UnSubscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end subscibe -->
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 ">
+                    <div>
+                        <h3 class="h1 d-flex justify-content-center">
+                            OneTech
+                        </h3>
+                        <ul class="d-flex justify-content-center p-0 gap-2">
+                            <li class="fs-2"><a href="#">
+                                    <i class='bx bxl-facebook-circle'></i>
+                                </a></li>
+                            <li class="fs-2"><a href="#">
+                                    <i class='bx bxl-instagram-alt'></i>
+                                </a></li>
+                            <li class="fs-2"><a href="#">
+                                    <i class='bx bxl-youtube'></i>
+                                </a></li>
+                            <li class="fs-2"><a href="#">
+                                    <i class='bx bxl-twitter'></i>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h3 class="footer-head">Products</h3>
+                    <ul>
+                        <li class="mb-1"><a href="#">Help center</a></li>
+                        <li class="mb-1"><a href="#">Contact us</a></li>
+                        <li class="mb-1"><a href="#">product help</a></li>
+                        <li class="mb-1"><a href="#">warranty</a></li>
+                        <li class="mb-1"><a href="#">order status</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h3 class="footer-head">services</h3>
+                    <ul>
+                        <li class="mb-1"><a href="#">Help center</a></li>
+                        <li class="mb-1"><a href="#">Contact us</a></li>
+                        <li class="mb-1"><a href="#">product help</a></li>
+                        <li class="mb-1"><a href="#">warranty</a></li>
+                        <li class="mb-1"><a href="#">order status</a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h3 class="footer-head">support</h3>
+                    <ul>
+                        <li class="mb-1"><a href="#">Help center</a></li>
+                        <li class="mb-1"><a href="#">Contact us</a></li>
+                        <li class="mb-1"><a href="#">product help</a></li>
+                        <li class="mb-1"><a href="#">warranty</a></li>
+                        <li class="mb-1"><a href="#">order status</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <!-- footer bottom -->
+    <div class="footer-bottom bg-light">
+        <div class="container">
+            <p class="text-center m-0 mt-3 small text-muted">
+                Copyright &copy; 2022 All rights reserved |
+                <a href="#">Ali shamsian</a>
+            </p>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
