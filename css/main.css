@@ -73,10 +73,6 @@ p{
     background-repeat: no-repeat;
 }
 
-.product-card-img{
-    height: 300px;
-}
-
 .product-card-img img {
     max-height: 100%;
     transition: all 0.3s ease-in-out;
@@ -94,7 +90,84 @@ p{
     display: block;
 }
 
+.product-card:hover {
+    background-color: var(--second-bg);
+}
+
+.product-btn {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s ease-in-out;
+}
+
+.product-card:hover .product-btn {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+
+.btn-shop-now,
+.btn-cart-add {
+    font-size: 15px;
+    padding: 5px 10px;
+    line-height: 17px;
+}
+
 .bg-gradient{
     background: linear-gradient(90deg, rgba(2, 0, 36, 0.41780462184873945) 0%, rgba(29, 29, 207, 0.4206057422969187) 13%, rgba(0, 212, 255, 0.053658963585434205) 100%) !important;
+}
+.bg-white{
+    background-color: var(--main-bg) !important;
+}
 
+
+/* rate stars */
+
+.rate {
+    height: 45px;
+    float: left;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+
+.top-product-list .product-card:nth-child(4n+4) {
+    border-right: none !important;
 }
