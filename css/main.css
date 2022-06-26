@@ -166,7 +166,10 @@ p{
     color: #c59b08;
 }
 
-
+.slider-box{
+    width: 80px;
+    height: 40px;
+}
 
 .top-product-list .product-card:nth-child(4n+4) {
     border-right: none !important;
