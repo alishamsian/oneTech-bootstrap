@@ -3,17 +3,8 @@
 :root {
     --main-bg: #ffffff;
     --second-bg: #f5f5f5;
-    --txt-color: #455560;
-    --txt-white: #fff;
     --main-color: #349eff;
-    --border-color: #4555603b;
     --second-color: #62b4ff;
-    --btn-bg: #000;
-    --btn-border-color: #000;
-    --btn-color: #fff;
-    --red: #c0392b;
-    --gray: #4555608c;
-
 
     --box-shadow: rgb(149 157 165 / 40%) 0px 8px 24px;
 }
