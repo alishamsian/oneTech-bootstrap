@@ -129,6 +129,14 @@ p {
     height: 40px;
 }
 
+.policy-card {
+    transition: transform 0.5s ease;
+}
+
+.policy-card:hover {
+    transform: translateY(-20px);
+}
+
 @media (min-width: 1200px) {
     .top-product-list .product-card:nth-child(4n+4) {
         border-right: none !important;
